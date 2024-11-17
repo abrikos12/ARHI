@@ -1,0 +1,40 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Тест для ГХ"
+    id="id-740034bc1d294a5ea65ae376e7e85beb">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-85542f909db841a2bf740eda0636c044">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-53bfc75308c74d3f86be6ebb54eed013"
+        source="id-85542f909db841a2bf740eda0636c044"
+        target="id-8dc3cec873244d3a8d71bc2141e0ea73">
+      <archimateRelationship
+          xsi:type="archimate:TriggeringRelationship"
+          href="TriggeringRelationship_id-9e7e87ab0a3e4a838d162bae8d733546.xml#id-9e7e87ab0a3e4a838d162bae8d733546"/>
+    </sourceConnections>
+    <bounds
+        x="223"
+        y="240"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationService"
+        href="ApplicationService_id-742b566223d94c66abd97a8673b1a174.xml#id-742b566223d94c66abd97a8673b1a174"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-8dc3cec873244d3a8d71bc2141e0ea73"
+      targetConnections="id-53bfc75308c74d3f86be6ebb54eed013">
+    <bounds
+        x="516"
+        y="279"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationService"
+        href="ApplicationService_id-f19ae2346ca447b6b1a67e572c985c09.xml#id-f19ae2346ca447b6b1a67e572c985c09"/>
+  </children>
+</archimate:ArchimateDiagramModel>
